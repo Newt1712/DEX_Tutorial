@@ -1,0 +1,6 @@
+@StarterDex.Gateway_HostAddress = http://localhost:5263
+
+GET {{StarterDex.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
