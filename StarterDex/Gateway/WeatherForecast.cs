@@ -1,4 +1,4 @@
-namespace SimpleDexApi
+namespace StarterDex.Gateway
 {
     public class WeatherForecast
     {

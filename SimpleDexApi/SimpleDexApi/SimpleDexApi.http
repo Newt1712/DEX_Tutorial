@@ -1,6 +1,0 @@
-@SimpleDexApi_HostAddress = http://localhost:5125
-
-GET {{SimpleDexApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

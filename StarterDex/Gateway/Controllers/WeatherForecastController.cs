@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SimpleDexApi.Controllers
+namespace StarterDex.Gateway.Controllers
 {
     [ApiController]
     [Route("[controller]")]
