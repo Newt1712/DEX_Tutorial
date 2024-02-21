@@ -16,10 +16,6 @@ namespace dexApi.Controllers
     public class CoinsMarketController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
 
         private readonly ILogger<CoinsMarketController> _logger;
 

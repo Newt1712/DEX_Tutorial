@@ -1,0 +1,6 @@
+@AK.MessageBroker_HostAddress = http://localhost:5100
+
+GET {{AK.MessageBroker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
