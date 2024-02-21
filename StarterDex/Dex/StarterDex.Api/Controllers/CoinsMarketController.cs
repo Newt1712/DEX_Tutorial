@@ -30,8 +30,8 @@ namespace dexApi.Controllers
         }
 
 
-        [HttpPost("GetTokenPrices")]
-        public async Task<IList<Token>> Get(List<string> tokensAddress)
+        [HttpPost("GetTokensPrice")]
+        public async Task<IList<Token>> GetTokensPrice(List<string> tokensAddress)
         {
             var client = new RestClient();
 
